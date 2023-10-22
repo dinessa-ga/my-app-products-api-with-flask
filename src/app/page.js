@@ -1,6 +1,7 @@
 import React from 'react';
+import { Input } from '@mui/material';
 import { Button } from "@mui/material";
-
+import { Table, TableBody} from '@mui/material';
 
 
 
@@ -10,21 +11,22 @@ export default function Home() {
   return (
     <>
     <h1 align="center">Lista de productos</h1>
-    <Button variant="contained">Mostrar</Button>
-    <div align="center">
-                <input
+    
+    <div align="center" style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "50px" }}>
+                <Input
                     type="text"
                     placeholder="Filtrar por Código"
-                    // value={filterCode}
+                   // value={filterCode}
                     // onChange={(e) => setFilterCode(e.target.value)}
                 />
-                <input
+                <Input 
                     type="date"
                     // value={filterDate}
                     // onChange={(e) => setFilterDate(e.target.value)}
                 />
             </div>
-    <table align="center">
+      <br></br>
+    <Table className="MuiTable-root" align="center">
        <thead>
             <tr>
                 <th>Código</th>
@@ -34,15 +36,16 @@ export default function Home() {
                 <th>Acciones</th>
             </tr>
        </thead>
+       <TableBody>
             <tr>
               <td>01</td>
               <td>laptop</td>
               <td>disponible</td>
               <td>01/11/23</td>
-              <td>buton</td>
+              <td><Button variant="contained">Editar</Button></td>
             </tr>
-        
-    </table>
+      </TableBody>
+    </Table>
     
     </>
   )
