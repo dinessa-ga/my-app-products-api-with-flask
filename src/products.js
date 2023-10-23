@@ -1,63 +1,63 @@
 [
     {
       "codigo": "001",
-      "descripcion": "Laptop",
+      "descripcion": "Arroz",
       "estado": "Disponible",
-      "fechavencimiento": "2023-10-31"
+      "fechavencimiento": "2025-12-31"
     },
     {
       "codigo": "002",
-      "descripcion": "Teléfono móvil",
-      "estado": "En stock",
-      "fechavencimiento": "2023-11-15"
+      "descripcion": "Pasta",
+      "estado": "Disponible",
+      "fechavencimiento": "2025-12-31"
     },
     {
       "codigo": "003",
-      "descripcion": "Tableta",
-      "estado": "Agotado",
-      "fechavencimiento": "2023-12-05"
+      "descripcion": "Lentejas",
+      "estado": "Disponible",
+      "fechavencimiento": "2025-12-31"
     },
     {
       "codigo": "004",
-      "descripcion": "Monitor",
+      "descripcion": "Aceite de cocina",
       "estado": "Disponible",
-      "fechavencimiento": "2024-01-20"
+      "fechavencimiento": "2025-12-31"
     },
     {
       "codigo": "005",
-      "descripcion": "Teclado",
-      "estado": "En stock",
-      "fechavencimiento": "2023-11-10"
+      "descripcion": "Cereales",
+      "estado": "Disponible",
+      "fechavencimiento": "2025-12-31"
     },
     {
       "codigo": "006",
-      "descripcion": "Ratón",
+      "descripcion": "Harina",
       "estado": "Disponible",
-      "fechavencimiento": "2023-12-31"
+      "fechavencimiento": "2025-12-31"
     },
     {
       "codigo": "007",
-      "descripcion": "Auriculares",
-      "estado": "Agotado",
-      "fechavencimiento": "2024-02-15"
+      "descripcion": "Azúcar",
+      "estado": "Disponible",
+      "fechavencimiento": "2025-12-31"
     },
     {
       "codigo": "008",
-      "descripcion": "Impresora",
-      "estado": "En stock",
-      "fechavencimiento": "2024-01-05"
+      "descripcion": "Sal",
+      "estado": "Disponible",
+      "fechavencimiento": "2025-12-31"
     },
     {
       "codigo": "009",
-      "descripcion": "Altavoces",
+      "descripcion": "Conservas enlatadas",
       "estado": "Disponible",
-      "fechavencimiento": "2023-11-30"
+      "fechavencimiento": "2025-12-31"
     },
     {
       "codigo": "010",
-      "descripcion": "Disco duro externo",
+      "descripcion": "Café",
       "estado": "Disponible",
-      "fechavencimiento": "2023-12-15"
+      "fechavencimiento": "2025-12-31"
     }
   ]
-  
+

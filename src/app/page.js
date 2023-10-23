@@ -38,7 +38,7 @@ export default function Home() {
        <TableBody>
             <tr>
               <td>01</td>
-              <td>laptop</td>
+              <td>Cereales</td>
               <td>disponible</td>
               <td>01/11/23</td>
               <td><Button variant="contained" style={{align: "center"}}>Editar</Button></td>
