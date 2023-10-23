@@ -4,15 +4,14 @@ import { Button } from "@mui/material";
 import { Table, TableBody} from '@mui/material';
 
 
-
-
-
 export default function Home() {
   return (
     <>
     <h1 align="center">Lista de productos</h1>
     
     <div align="center" style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "50px" }}>
+               
+        <Button variant="contained">Agregar</Button>
                 <Input
                     type="text"
                     placeholder="Filtrar por Código"
@@ -42,10 +41,11 @@ export default function Home() {
               <td>laptop</td>
               <td>disponible</td>
               <td>01/11/23</td>
-              <td><Button variant="contained">Editar</Button></td>
+              <td><Button variant="contained" style={{align: "center"}}>Editar</Button></td>
             </tr>
       </TableBody>
     </Table>
+
     
     </>
   )
